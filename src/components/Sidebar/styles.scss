@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sidebar {
+  background-color: #000;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  width: 150px;
+  height: 100%;
+  position: fixed;
+
+  ul {
+    
+    li {
+      list-style: none;
+      border-bottom: 1px solid #5C5C5C;
+      padding: 14px 0 11px 16px;
+
+      a {
+        text-decoration: none;
+        color: #AAAAAA;
+      }
+    }
+
+    li:hover {
+      background-color: #5C5C5C;
+      a {
+        color: #fff;
+      }
+    }
+
+  }
+
+}
