@@ -12,27 +12,26 @@
   width: 150px;
   height: 100%;
   position: fixed;
-
+  top: 0;
+  left: 0;
+  /* z-index: 1; */
   ul {
-    
     li {
       list-style: none;
-      border-bottom: 1px solid #5C5C5C;
+      border-bottom: 1px solid #5c5c5c;
       padding: 14px 0 11px 16px;
 
       a {
         text-decoration: none;
-        color: #AAAAAA;
+        color: #aaaaaa;
       }
     }
 
     li:hover {
-      background-color: #5C5C5C;
+      background-color: #5c5c5c;
       a {
         color: #fff;
       }
     }
-
   }
-
 }
